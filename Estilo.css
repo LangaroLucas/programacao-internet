@@ -1,0 +1,468 @@
+body{
+    background-color: #494949;
+}
+
+/*Cabeçalho*/
+
+.formatacaohref{
+    text-decoration: none;
+    color: #000000;
+}
+
+.formatacaoSobre{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.clLogo{
+    margin-top: -20px;
+    margin-left: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.divCabecalho{
+    background-color: #ffffff;
+    margin-top: 25px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.divDashboard{
+    position: absolute;
+    margin-top: -60px;
+    width: 120px;
+    right: 380px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divUsinas{
+    position: absolute;
+    margin-top: -60px;
+    width: 120px;
+    right: 250px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divInserirUsinas{
+    position: absolute;
+    margin-top: -60px;
+    width: 120px;
+    right: 150px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divSobre{
+    position: absolute;
+    margin-top: -62px;
+    width: 70px;
+    right: 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #000000;
+    padding: 3px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Rodapé*/
+
+.divRodape{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius:  15px;
+    position: relative;
+}
+
+.divTabelaRodapeLogo{
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.correcaoTabelaLogo{
+    text-align: center;
+}
+
+.divTabelaRodapeTextos{
+    position: absolute;
+    right: 40px;
+    margin-top: -135px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.TabelaTextoTitulos{
+    font-weight: bold;
+}
+
+.formatacaoCelulaTabela{
+    width: 100px;
+    height: 30px;
+}
+
+.formatacaoCelulaTabela:hover{
+    text-decoration: underline;
+}
+
+/*Dashboard*/
+
+.divDashboardConteudo{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #e5e5e5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formatacaoPquadros{ /*Formatação do parágrafo abaixo dos títulos do quadro*/
+    color: #828282;
+    margin-top: -15px;
+}
+
+.hrdivisoria{
+    overflow: hidden;
+    opacity: 40%;
+    margin-top: -45px;
+    margin-left: -90px;
+    margin-right: -90px;
+}
+
+    /*Quadro Produção Diária*/
+
+.divProducaoDiaria{
+    background-color: #fec726;
+    padding: 100px;
+    margin: 50px;
+    border-radius: 15px;
+
+}
+
+.divTituloProducaoDiaria{
+    position: absolute;
+    left: 70px;
+    margin-top: -110px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+    /*Quadro Produção Mensal*/
+
+.divProducaoMensal{
+    background-color: #fec726;
+    padding: 100px;
+    margin: 50px;
+    border-radius: 15px;
+
+}
+
+.divTituloProducaoMensal{
+    position: absolute;
+    left: 70px;
+    margin-top: -110px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+    /*Quadro Status de Usinas*/
+
+.divStatusUsinas{
+    background-color: #fec726;
+    padding: 100px;
+    margin: 50px;
+    border-radius: 15px;
+
+}
+
+.divTituloStatusUsinas{
+    position: absolute;
+    left: 70px;
+    margin-top: -110px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+    /*Quadro Potência Total*/
+
+.divPotenciaTotal{
+    background-color: #fec726;
+    padding: 100px;
+    margin: 50px;
+    border-radius: 15px;
+
+}
+
+.divTituloPotenciaTotal{
+    position: absolute;
+    left: 70px;
+    margin-top: -110px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+    /*Tabelas Dashboard*/
+
+.divTabelasDashboard {
+    width: 100%;
+    margin-top: 60px;
+    overflow-x:auto; /* permite rolagem horizontal se necessário */
+}
+
+.tabelasDashboard {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* colunas respeitam os limites de largura */
+}
+
+.tabelasDashboard td {
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.tdData{
+    font-weight: bold;
+    width: 30px;
+}
+
+.linhacorrecao td{
+    height: 20px;
+    border-right: none;
+    border-left: none;
+}
+
+
+/*Usinas*/
+
+.divusinasConteudo{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #e5e5e5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divtbSubtitulo{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+.tdSubtitulo{
+    text-align: center;
+    width: 370px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divUsinasProdutores{
+    background-color: #fec726;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.tdUsinasProdutores{
+    text-align: center;
+    width: 370px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Inserir Usinas*/
+
+.textopadrão{
+    color: #e5e5e5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.UsinaNome{
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 15px;
+    color: #9b9b9b;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.InputStyle{
+    background-color: white;
+    width: 500px;
+    height: 70px;
+    border-radius: 15px;
+    border: 1px solid #494949;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px 0 #000000;
+}
+
+.divImagemDadosClient{
+    min-width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ImagemPainel{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.DadosClient{
+    margin-left: 3%;
+    margin-right: 3%;   
+    padding: 10px;
+    height: 440px;
+    width: 500px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fec726;
+    border-radius: 15px;
+}
+
+.InputClient{
+    background-color: #f7f4f4a4;
+    border-radius: 15px;
+    min-width: 500px;
+    height: 50px;
+    box-shadow: 5px 5px 10px 0 #494949;
+}
+
+.InputClient2{
+    background-color: #f7f4f4a4;;
+    border-radius: 15px;
+    height: 50px;
+    box-shadow: 5px 5px 10px 0 #494949;
+}
+
+.GeracDia{
+    background-color: #fec726;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+    margin-top: 10%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.GeracDia div {
+    text-align: center;
+}
+
+.GeracDia0{
+    padding: 20px;
+}
+
+.StatsInput{
+    background-color: #f7f4f4a4;
+    border-radius: 15px;
+    height: 40px;;
+}
+
+/*Certo*/
+
+.divInputseTabela{
+    display: flex;
+    align-self: center;
+}
+
+.graficoEinputs{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 1000px;
+    height: 600px;
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.h3Texto{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.GraficoLockDias{
+    margin-top: 4%;
+    background-color: #fec726;
+    border-radius: 15px;
+    min-width: 300px;
+    height: 300px;
+    padding: 20px;
+    color: black;
+}
+
+.input-grade{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 20px;
+    box-shadow: 5px 5px 10px 0 #494949;
+    color: white;
+}
+
+.input-grade label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+      
+}
+
+.input-grade input{
+    width: 70px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0eaff;
+    color: black;
+    
+}
+
+.InputGraf{  
+    box-shadow: 5px 5px 10px 0 #000000;
+}
+
+/*Sobre*/
+
+.pTextoSobre{
+    text-align: justify;
+    font-size: 30px;
+    color: #e5e5e5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.NomeSobre{
+    color: #e5e5e5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divTextoSobre{
+    margin-right: 75px;
+    min-height: 750px;
+    width: 50%;
+    padding: 10px;
+}
+
+.divLogoUnipar{
+    margin-left: 75px;
+    min-height: 750px; 
+    width: 700px;
+}
+
+.LogoUnipar{
+    border-radius: 15px;
+    height: 750px; 
+    width: 700px;
+}
+
+.divSobreTextoImagem{
+    min-height: 750px;
+    margin-bottom: 50px;
+    display: flex;
+}
